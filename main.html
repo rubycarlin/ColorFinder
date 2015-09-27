@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>COLOR PICKER</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="colorPicker.css">
+	</head>
+	<body>
+		<div class = "wrapper">
+			<section class = "sidebar">
+	    		<div id="share-buttons">
+	    
+				    <!-- Email -->
+				    <a href="#" onclick = "sendEmail(); return false">
+				        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+				    </a>
+				 
+				    <!-- Facebook -->
+				    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+				        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+				    </a>
+				    
+				    <!-- Google+ -->
+				    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+				        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+				    </a>
+				    
+				    <!-- Pinterest -->
+				    <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());">
+				        <img src="https://simplesharebuttons.com/images/somacro/pinterest.png" alt="Pinterest" />
+				    </a>
+				    
+
+				    <!-- Twitter -->
+				    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+				        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+				    </a>
+				    
+				</div>
+	    	 </section>
+			 <div class = "main">
+			 	<section class="center">
+			 		<canvas id="canvas"  width="150" height="150" class="center"></canvas>
+			 	</section>
+			 	<section class="center">
+			 		<div class = "upload">
+			        	<input type="file" name="upload" id = "fileUpload"/>
+			        </div>
+			 	</section >
+			 	<section class="center">
+			 		<canvas id="colorPalette"  width="1000"  style="background-color:#ffffff;"></canvas>
+			 	</section>
+
+	    	</div
+
+    	</div>
+		<script type="text/javascript" src = "upload.js"></script>
+	</body>
+</html>
